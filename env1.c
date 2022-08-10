@@ -10,17 +10,17 @@
  */
 int cmp_env_name(const char *nenv, const char *name)
 {
-	int i;
+	int ii;
 
-	for (i = 0; nenv[i] != '='; i++)
+	for (ii = 0; nenv[ii] != '='; ii++)
 	{
-		if (nenv[i] != name[i])
+		if (nenv[ii] != name[ii])
 		{
 			return (0);
 		}
 	}
 
-	return (i + 1);
+	return (ii + 1);
 }
 
 /**
