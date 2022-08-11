@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * get_error - calls the error according the builtin, syntax or allow 
- * @datash: data structure that contains arguments
+ * get_error - calls the error according the builtin, syntax or allw
+ * @datash: data structure that contains argument
  * @eval: error value
  * Return: error
  */
